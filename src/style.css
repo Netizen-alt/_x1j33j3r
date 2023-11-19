@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;400&family=Vina+Sans&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  font-family: 'Playpen Sans', cursive;
+font-family: 'Vina Sans', sans-serif;
+}
+
+body {
+  font-family: 'Playpen Sans', cursive;
+font-family: 'Vina Sans', sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
